@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*code for mobile devices smaller than 600px*/
+@media only screen and (max-width: 600px){
+body {      
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 500;
+    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+}}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body {      
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 500;
+    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body {      
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 500;
+    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body {      
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 500;
+    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   body {      
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 500;
+    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+}}
+
+.mr-auto{
+    margin-right: auto;
+}
+
+html, body{      
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 0%;
+    height: 100%;
+    display: inline-block;
+    font-weight: 500;
+    background: radial-gradient(circle, lightgrey, rosybrown, whitesmoke) lightgrey;
+}
+
+header{
+    background-color: rosybrown;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navcolour {
+    background: radial-gradient(circle, lightgrey, whitesmoke, rosybrown);
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.title{
+    padding-top: 10%;
+    font-style: oblique;
+    text-align:start;
+}
+
+.aboutpara{
+    font-style: oblique;
+    text-align:start;
+    font-size: large;
+}
+
+.name{
+    padding-left: 15px;
+}
+
+h4{
+    text-align: right;    
+}
+
+li{
+    font-style:inherit;
+    word-spacing: 2px;
+}
+
+.intereststyle{
+    font-weight: bolder;
+}
+
+.experience-m{
+    margin-left: 5%;
+}
+
+.title-text{
+    display: inline-block;
+    font-weight: bold;
+    animation: mover 7s linear infinite;
+}
+
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(0,0,0,30);
+        transform: translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+}
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-item {
+    color: black;
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes focus-in-contract {
+    0%{
+      letter-spacing: 1em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100%{
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .at-items {
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  @keyframes scale-up-center {
+    0%{
+      -webkit-transform: scale(.2);
+      transform: scale(.2);
+    }
+    100%{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+
+  .profile-picture {
+    width: 60%;
+    border-radius: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-style: solid;
+    border-color: darksalmon;
+    border-width: thin;
+}
+
+
+#interests, #skills{
+   
+    float: left;
+    width: 50%;
+    padding-left: 1%;
+   }
+#experience, #education{
+    clear: both;
+    padding-left: 1%;
+    padding-top: 2%;
+
+}
+
+.skillimg{
+    width: 100px;
+    height: 60px;
+}
+
+span{
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.ul-list{
+    margin: 40px;
+    list-style: none;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+.ol-list{
+    list-style: none;
+    line-height: 1.2;
+    text-align: center;
+    
+}
+.ul-list li:first-child{
+    font-weight: 600;
+    
+}
+
+.box{
+
+    color: black;
+    width: 75%;
+    display:inline-block;
+    padding-bottom: 2%;
+}
+
+#background {
+    height: 320;
+    background-color: #cccccc;
+    background-image: linear-gradient( darkgrey,lightgrey, rgb(160, 122, 122));
+  }
+
+.footer{
+    background-color: rosybrown;
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    width: 100%;
+}
