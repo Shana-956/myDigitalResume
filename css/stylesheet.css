@@ -77,12 +77,14 @@ html, body{
     background: radial-gradient(circle, lightgrey, rosybrown, whitesmoke) lightgrey;
 }
 
+
 header{
     background-color: rosybrown;
     padding: 10px;
     text-align: center;
     font-style: oblique;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1560803262-95a9de00a057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
 }
 
 .navcolour {
@@ -121,6 +123,7 @@ li{
 
 .intereststyle{
     font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 .experience-m{
@@ -218,7 +221,15 @@ div.at-container {
     float: left;
     width: 50%;
     padding-left: 1%;
+    padding-top: 1%;
+    text-align: center;
+
    }
+
+.int{background-image: url(https://images.unsplash.com/photo-1560803262-95a9de00a057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);}
+
+.skill{background-image: url(https://images.unsplash.com/photo-1560803262-95a9de00a057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);}
+
 #experience, #education{
     clear: both;
     padding-left: 1%;
@@ -265,6 +276,7 @@ span{
     height: 320;
     background-color: #cccccc;
     background-image: linear-gradient( darkgrey,lightgrey, rgb(160, 122, 122));
+    font-weight: 500;
   }
 
 .footer{
