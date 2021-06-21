@@ -270,6 +270,7 @@ span{
     width: 75%;
     display:inline-block;
     padding-bottom: 2%;
+    background-size: cover;
 }
 
 #background {
