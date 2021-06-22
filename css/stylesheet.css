@@ -273,12 +273,20 @@ span{
     background-size: cover;
 }
 
+
 #background {
     height: 320;
     background-color: #cccccc;
-    background-image: linear-gradient( darkgrey,lightgrey, rgb(160, 122, 122));
+    background-image: linear-gradient( lightgrey, rgb(160, 122, 122));
     font-weight: 500;
+    padding: 0;
   }
+
+.quote-card{
+    font-style: oblique;
+    text-align: center;
+}
+
 
 .footer{
     background-color: rosybrown;
