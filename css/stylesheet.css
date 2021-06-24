@@ -12,7 +12,7 @@ body {
     height: 100%;
     display: inline-block;
     font-weight: 500;
-    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+    background: linear-gradient( lightgrey, rosybrown, whitesmoke) lightgrey;
 }}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -24,7 +24,7 @@ body {
     height: 100%;
     display: inline-block;
     font-weight: 500;
-    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+    background: linear-gradient( lightgrey, rosybrown, whitesmoke) lightgrey;
 }}
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -36,7 +36,7 @@ body {
     height: 100%;
     display: inline-block;
     font-weight: 500;
-    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+    background: linear-gradient( lightgrey, rosybrown, whitesmoke) lightgrey;
 }}
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -48,7 +48,7 @@ body {
     height: 100%;
     display: inline-block;
     font-weight: 500;
-    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+    background: linear-gradient( lightgrey, rosybrown, whitesmoke) lightgrey;
 }}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -60,7 +60,7 @@ body {
     height: 100%;
     display: inline-block;
     font-weight: 500;
-    background: radial-gradient(circle, rosybrown, whitesmoke) lightgrey;
+    background: linear-gradient( lightgrey, rosybrown, whitesmoke) lightgrey;
 }}
 
 .mr-auto{
@@ -74,7 +74,7 @@ html, body{
     height: 100%;
     display: inline-block;
     font-weight: 500;
-    background: radial-gradient(circle, lightgrey, rosybrown, whitesmoke) lightgrey;
+    background: linear-gradient(90deg, hsla(14, 51%, 75%, 1) 0%, hsla(38, 8%, 72%, 1) 17%, hsla(28, 12%, 72%, 1) 89%, hsla(14, 51%, 75%, 1) 99%);
 }
 
 
@@ -88,7 +88,7 @@ header{
 }
 
 .navcolour {
-    background: radial-gradient(circle, lightgrey, whitesmoke, rosybrown);
+    background: radial-gradient(circle, lightgrey, hsla(14, 51%, 75%, 1));
 }
 
 h1{
@@ -105,7 +105,7 @@ h1{
 .aboutpara{
     font-style: oblique;
     text-align:start;
-    font-size: large;
+    font-size: 18px;
 }
 
 .name{
@@ -277,7 +277,7 @@ span{
 #background {
     height: 320;
     background-color: #cccccc;
-    background-image: linear-gradient( lightgrey, rgb(160, 122, 122));
+    background-image: url(https://images.unsplash.com/photo-1560803262-95a9de00a057?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
     font-weight: 500;
     padding: 0;
   }
@@ -289,7 +289,6 @@ span{
 
 
 .footer{
-    background-color: rosybrown;
     text-align: center;
     clear: both;
     padding: 15px;
